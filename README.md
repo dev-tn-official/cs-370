@@ -1,7 +1,7 @@
 # cs-370
 Current and Emerging Trends in Computer Science
 
-# Project Reflection: Pirate Intelligent Agent
+# Project Reflection: Pirate Intelligent Agent (Reinforcement Learning)
 
 ## Resources Used
 - Python
@@ -38,13 +38,13 @@ This portion of the project required integrating multiple concepts learned over 
 
 ## What Problem Was Being Solved
 
-The core problem addressed in this project is commonly referred to as a **pathfinding problem**, where an intelligent agent must determine the best route through an environment to reach a goal. However, instead of using traditional rule-based logic that most programs of the past would have used, the agent learns optimal behavior through repeated interaction with the environment, which serves as an excellent example of reinforcement learning.
+The core problem addressed in this project is commonly referred to as a **pathfinding problem**, where an intelligent agent must determine the best route through an environment to reach a goal. However, instead of using rule-based logic that most traditional programs would have used, the agent learns optimal behavior through repeated interaction with the environment, which serves as an excellent example of reinforcement learning.
 
 This reflects real-world applications where environments are dynamic or too complex to solve using static algorithms, such as robotics, autonomous vehicles, and game AI.
 
 ---
 
-## Approach and Key Concepts At Play
+## Approach and Key Concepts Employed
 
 The approach used in this project was **Deep Q-Learning (DQN)**, which combines reinforcement learning with neural networks.
 
@@ -56,7 +56,7 @@ Key concepts applied include:
 - **Neural Networks:** Used to approximate Q-values and guide decision-making.
 - **Target Networks:** Help stabilize training by reducing rapid fluctuations in learning.
 
-This approach demonstrated how reinforcement learning enables system sot optimize decision-making through repeated interaction with an environment rather than relying on predefined rules. It was readily apparent that more thorough testing required more time, and required more computational resources, but resulted in improved performance.
+This approach demonstrated how reinforcement learning enables systems to optimize decision-making through repeated interaction with an environment rather than relying on predefined rules. It was readily apparent that more thorough testing required more time and computational resources, but resulted in improved performance.
 
 ---
 
@@ -91,7 +91,7 @@ In my original work, I identified concerns such as incorrect decision-making and
 - Validating outputs before applying real-world consequences.
 - Maintaining human involvement in decision-making processes as a form of 'checks and balances'.
 
-Balancing technological capability with ethical responsibility remains a significant challenge, however, it is essential for building trustworthy AI systems.
+Balancing technological capability with ethical responsibility remains a significant challenge; however, it is essential for building trustworthy AI systems.
 
 ---
 
