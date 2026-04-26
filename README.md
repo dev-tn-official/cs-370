@@ -3,6 +3,12 @@ Current and Emerging Trends in Computer Science
 
 # Project Reflection: Pirate Intelligent Agent
 
+## Resources Used
+- Python
+- Jupyter Notebook
+- Reinforcement Learning (Deep Q-Learning)
+- Neural Networks
+
 ## Overview
 
 Over the course of this term, I developed a Pirate Intelligent Agent using the concepts of reinforcement learning and neural networks within the Jupyter Notebook environment. The goal of the project was to design an AI agent capable of navigating a maze from start to finish, with the goal of obtaining the treasure at the end while avoiding obstacles. This project demonstrates how artificial intelligence can be applied to solve pathfinding problems through learning and adaptation rather than predefined rules, which likely would have been the standard method of solving this type of problem until recently.
@@ -11,7 +17,7 @@ The Pirate Intelligent Agent project built upon concepts introduced throughout t
 
 ---
 
-## What Was Done To Solve The Problem At Hand
+## Work Completed
 
 For this project, I was provided with starter code that included:
 - The maze environment and structure.
@@ -32,7 +38,7 @@ This portion of the project required integrating multiple concepts learned over 
 
 ## What Problem Was Being Solved
 
-The core problem addressed in this project can be known as a **pathfinding problem**, where an intelligent agent must determine the best route through an environment to reach a goal. However, instead of using traditional rule-based logic that most programs of the past would have used, the agent learns optimal behavior through repeated interaction with the environment, which serves as an excellent example of reinforcement learning.
+The core problem addressed in this project is commonly referred to as a **pathfinding problem**, where an intelligent agent must determine the best route through an environment to reach a goal. However, instead of using traditional rule-based logic that most programs of the past would have used, the agent learns optimal behavior through repeated interaction with the environment, which serves as an excellent example of reinforcement learning.
 
 This reflects real-world applications where environments are dynamic or too complex to solve using static algorithms, such as robotics, autonomous vehicles, and game AI.
 
@@ -50,7 +56,7 @@ Key concepts applied include:
 - **Neural Networks:** Used to approximate Q-values and guide decision-making.
 - **Target Networks:** Help stabilize training by reducing rapid fluctuations in learning.
 
-This approach allowed the agent to gradually improve its performance and learn an optimal strategy over time. It was readily apparent that more thorough testing required more time, and utilized more computing resources, but resulted in the best outcome.
+This approach demonstrated how reinforcement learning enables system sot optimize decision-making through repeated interaction with an environment rather than relying on predefined rules. It was readily apparent that more thorough testing required more time, and required more computational resources, but resulted in improved performance.
 
 ---
 
@@ -58,7 +64,7 @@ This approach allowed the agent to gradually improve its performance and learn a
 
 This course served to expand my understanding of some of the key concepts behind artificial intelligence and its implementation within computer science.
 
-Computer scientists design systems that solve complex problems by combining theory, algorithms, and practical implementation. This matters because many real-world problems cannot be solved efficiently through manual processes or simple logic alone. Addtionally, those that can be solved by manual processes may be solved an in inefficient manner, and in the world of business, "time is money". Therefore, if an automated option exists that will make the process of solving a problem more time efficient, while still achieving quality results, it should at least be strongly considered, if not consistently chosen each time.
+Computer scientists design systems that solve complex problems by combining theory, algorithms, and practical implementation. This matters because many real-world problems cannot be solved efficiently through manual processes or simple logic alone. Additionally, those that can be solved by manual processes may be solved in an inefficient manner, and in the world of business, efficiency is critical in both technical and business contexts. Therefore, if an automated option exists that will make the process of solving a problem more time efficient, while still achieving quality results, it should at least be strongly considered, if not consistently chosen each time.
 
 Through this project, I learned to approach problems more systematically by:
 - Breaking problems into smaller, manageable components, which is in line with the previously learned concept of the SDLC.
@@ -85,7 +91,7 @@ In my original work, I identified concerns such as incorrect decision-making and
 - Validating outputs before applying real-world consequences.
 - Maintaining human involvement in decision-making processes as a form of 'checks and balances'.
 
-Balancing technological capability with ethical responsibility is a difficulty, but essential for building trustworthy AI systems.
+Balancing technological capability with ethical responsibility remains a significant challenge, however, it is essential for building trustworthy AI systems.
 
 ---
 
@@ -97,7 +103,7 @@ I made efforts to ensure the code in this project was:
 - Easy to follow and modify for any future add-ons or re-writes.
 
 This included:
-- Using descriptive variable names to avoid unintentional amibiguity.
+- Using descriptive variable names to avoid unintentional ambiguity.
 - Adding comments to explain key logic.
 - Organizing the training process into logical steps that can be replicated or improved upon as AI technology continues to move forward.
 
@@ -118,4 +124,4 @@ This artifact serves to demonstrate the ability to apply artificial intelligence
 
 ## Conclusion
 
-The Pirate Intelligent Agent project showcases a significant step forward in my understanding of artificial intelligence and machine learning. By applying reinforcement learning and neural networks to a practical problem, I was able to see how intelligent systems can learn and adapt over time using a real world example. The hands-on experience obtained in this course has strengthened my ability to approach complex problems and reinforced the importance of thoughtful design and ethical responsibility in the implementation of AI and computer science in general.
+The Pirate Intelligent Agent project showcases a significant step forward in my understanding of artificial intelligence and machine learning. By applying reinforcement learning and neural networks to a practical problem, I was able to see how intelligent systems can learn and adapt over time using a real-world example. The hands-on experience obtained in this course has strengthened my ability to approach complex problems and reinforced the importance of thoughtful design and ethical responsibility in the implementation of AI and computer science in general.
